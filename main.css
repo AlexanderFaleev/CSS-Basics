@@ -34,6 +34,20 @@ body {
     width: 100%;
 }
 
+.main-header > div {
+    display: inline-block ;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 54px);
+}
+
 .main-nav__item {
     display: inline-block;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
+
