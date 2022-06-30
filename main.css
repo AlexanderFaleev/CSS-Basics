@@ -36,18 +36,37 @@ body {
 
 .main-header > div {
     display: inline-block ;
+    vertical-align: middle;
+}
+
+.main-header__brand {
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 54px);
+    width: calc(100% - 74px);
+    vertical-align: middle;
 }
 
-.main-nav__item {
+.main-nav__items {
     display: inline-block;
     padding: 0;
     margin: 0;
     list-style: none;
+    
 }
 
+.main-nav__item {
+    display: inline-block;
+    margin: 0px 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+}
