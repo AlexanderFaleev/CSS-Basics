@@ -90,6 +90,11 @@ body {
     background: white;
     color: #0e4f1f;
 }
+/* .button:focus (ниже псевдо класс) не работало
+и мне изначально его небыло видно, возможно просто нужн оудалить*/
+.button:focus {
+    outline: none;
+}
 
 /*h1 {
     font-family: sans-serif;
