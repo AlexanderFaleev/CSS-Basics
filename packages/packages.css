@@ -28,12 +28,20 @@ main {
     background: white;
 }
 
+.clearfix {
+    clear: both;
+}
+
 #plus {
     background: rgba(213, 255, 220, 0.95);
 }
 
 #free {
     background: rgba(234, 252, 237, 0.95);
+    float: right;
+    border-right: none;
+    border-left: 4px solid #0e4f1f;
+    text-align: right;
 }
 
 #premium {
@@ -51,5 +59,19 @@ main {
 .package:hover,
 .package:active {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    border-color: #ff5454;
+    border-color: #ff5454 !important; 
+    /* border-color: #ff5454 !important;
+
+    We can use this rule insted of the rule below,
+    but this is bad way. Better way is like below.
+    
+    #free:hover,
+    #free:active {
+    border-left-color: #ff5454;
+*/
+}
+
+#free:hover,
+#free:active {
+    border-left-color: #ff5454;
 }
