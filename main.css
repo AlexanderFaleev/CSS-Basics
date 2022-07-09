@@ -1,11 +1,4 @@
-* {
-    box-sizing: border-box;
-}
 
-body {
-    font-family: 'montserrat' , sans-serif;
-    margin: 0;
-}
 
 #product-overview {
     background: url(freedom.jpg);
@@ -24,6 +17,12 @@ body {
     font-family: 'Anton', sans-serif;
 }
  
+.plan__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
 .plan {
     background: #d5ffdc; 
     text-align: center;
@@ -74,98 +73,20 @@ body {
     color: #0e4f1f;
 }
 
-.button {
-    background: #0e4f1f;
-    color: white;
-    font-size: inherit;
-    border: 1.5px solid #0e4f1f;
-    padding: 8px;
-    border-radius: 8px;
-    font-weight: bold;
-    cursor: pointer;
+
+
+#key-features {
+    background: #ff1b68;
+    margin-top: 80px;
+    padding: 16px;
 }
 
-.button:hover,
-.button:active {
-    background: white;
-    color: #0e4f1f;
+#key-features .section-title {
+    color: white;
+    margin: 32px;
 }
 
 /*h1 {
     font-family: sans-serif;
 }*/
-
-.main-header {
-    background-color: #2ddf5c;
-    padding:  8px 16px;
-    width: 100%;
-}
-
-.main-header > div {
-    display: inline-block ;
-    vertical-align: middle;
-}
-
-.main-header__brand {
-    color: #0e4f1f;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 22px;
-}
-
-.main-nav {
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 74px);
-    vertical-align: middle;
-}
-
-.main-nav__items {
-    display: inline-block;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    
-}
-
-.main-nav__item {
-    display: inline-block;
-    margin: 0px 16px;
-}
-
-.main-nav__item a {
-    text-decoration: none;
-    color: #0e4f1f;
-    font-weight: bold;
-    padding: 3px;
-}
-
-
-.main-nav__item a:hover,
-.main-nav__item a:active {
-    color: white;
-    border-bottom: 5px solid white;
-}
-
-
-p::first-letter {
-    color: red;
-    font-size: 20px;
-}
-
-.main-nav__item--cta a {
-    color: white;
-    background: #ff1b68;
-    padding: 8px 16px;
-    border-radius: 8px;
-}
-
-.main-nav__item--cta a:hover,
-.main-nav__item--cta a:active {
-    color: #ff1b68;
-    background: white;
-    border: none;
-}
-
-
 
