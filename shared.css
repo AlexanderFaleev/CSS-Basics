@@ -11,11 +11,15 @@ body {
     background-color: #2ddf5c;
     padding:  8px 16px;
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .main-header > div {
     display: inline-block ;
     vertical-align: middle;
+    
 }
 
 .main-header__brand {
