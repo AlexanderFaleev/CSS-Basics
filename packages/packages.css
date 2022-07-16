@@ -18,10 +18,17 @@ main {
     position: relative;
 }
 
+.package:hover,
+.package:active {
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    border-color: #ff5454;
+    /* border-color: #ff5454 !important; */
+}
+
 .package a {
     text-decoration: none;
-    display: block;
     color: inherit;
+    display: block;
     padding: 32px;
 }
 
@@ -34,9 +41,7 @@ main {
     color: white;
     background: #ff5454;
     padding: 8px;
-
 }
-
 
 .package__subtitle {
     color: #979797;
@@ -66,34 +71,19 @@ main {
     text-align: right;
 }
 
+#free:hover,
+#free:active {
+    border-left-color: #ff5454;
+}
+
 #premium {
     background: rgba(14, 79, 31, 0.95);
 }
 
-#premium .packege__title {
+#premium .package__title {
     color: white;
 }
 
 #premium .package__subtitle {
     color: #bbb;
-}
-
-.package:hover,
-.package:active {
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    border-color: #ff5454 !important; 
-    /* border-color: #ff5454 !important;
-
-    We can use this rule insted of the rule below,
-    but this is bad way. Better way is like below.
-    
-    #free:hover,
-    #free:active {
-    border-left-color: #ff5454;
-*/
-}
-
-#free:hover,
-#free:active {
-    border-left-color: #ff5454;
 }
