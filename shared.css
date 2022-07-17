@@ -7,6 +7,8 @@ body {
     margin: 0;
 }
 
+
+
 .main-header {
     width: 100%;
     position: fixed;
@@ -73,6 +75,8 @@ body {
     background: white;
     border: none;
 }
+
+
 
 .main-footer {
     background: black;
