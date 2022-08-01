@@ -78,11 +78,19 @@ body {
     vertical-align: middle;
 }
 
+@media (max-width: 40rem) {
+    .main-nav__items {
+        display: none;
+    }
+}
+
 .main-nav__items {
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
+
 
 .main-nav__item {
     display: inline-block;
