@@ -1,4 +1,8 @@
 
+main {
+  padding-top: 2.5rem;
+}
+
 .testimonial {
     font-size: 1.2rem;
   }
@@ -8,9 +12,7 @@
     margin: auto;
   } */
   
-  .testimonial:first-of-type {
-    margin-top: 6rem;
-  }
+ 
 
   .testimonial__image-container {
     width: 100%;
