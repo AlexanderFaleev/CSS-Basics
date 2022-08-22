@@ -132,7 +132,7 @@
 }
 
 
-@media (min-width: 40rem) and (orientation: portrait) {
+@media (min-width: 40rem) {
   .key-feature {
     display: inline-block;
     width: 30%;
