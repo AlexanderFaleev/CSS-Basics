@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>uHost Customers</title>
+    <title>uHost Signup</title>
     <link rel="shortcut icon" href="../favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Anton|Montserrat:400,700" rel="stylesheet">
     <link rel="stylesheet" href="../shared.css">
-    <link rel="stylesheet" href="customers.css">
+    <link rel="stylesheet" href="start-hosting.css">
 </head>
 
 <body>
@@ -31,10 +31,10 @@
                     <a href="../packages/index.html">Packages</a>
                 </li>
                 <li class="main-nav__item">
-                    <a href="index.html">Customers</a>
+                    <a href="../customers/index.html">Customers</a>
                 </li>
                 <li class="main-nav__item main-nav__item--cta">
-                    <a href="start-hosting/index.html">Start Hosting</a>
+                    <a href="index.html">Start Hosting</a>
                 </li>
             </ul>
         </nav>
@@ -45,42 +45,35 @@
                 <a href="../packages/index.html">Packages</a>
             </li>
             <li class="mobile-nav__item">
-                <a href="index.html">Customers</a>
+                <a href="../customers/index.html">Customers</a>
             </li>
             <li class="mobile-nav__item mobile-nav__item--cta">
-                <a href="../start-hosting/index.html">Start Hosting</a>
+                <a href="index.html">Start Hosting</a>
             </li>
         </ul>
     </nav>
-    <main>
-        <div>
-            <div class="testimonial" id="customer-1">
-                <div class="testimonial__image-container">
-                    <img src="../images/customer-1.jpg" alt="Mike Statham - Customer" class="testimonial__image">
-                </div>
-                <div class="testimonial__info">
-                    <h1 class="testimonial__name">Mike Statham</h1>
-                    <h2 class="testimonial__subtitle">Founder of
-                        <a href="tech-analysis.com">tech-analysis.com</a>
-                    </h2>
-                    <p class="testimonial__text">uHost helped me realize my project with a highly constrained budget in like no time.</p>
-                </div>
-            </div>
-            <div class="testimonial" id="customer-2">
-
-                <div class="testimonial__info">
-                    <h1 class="testimonial__name">John Mellow</h1>
-                    <h2 class="testimonial__subtitle">Hosts his private videos on uHost.
-                    </h2>
-                    <p class="testimonial__text">I worked as a blogger and always looked for an integrated hosting and file storage solution. I found
-                        it in uHost!
-                    </p>
-                </div>
-                <div class="testimonial__image-container">
-                    <img src="../images/customer-2.jpg" alt="John Mellow - Customer" class="testimonial__image">
-                </div>
-            </div>
-        </div>
+    <main class="signup-page">
+        <h1 class="signup-title">Awesome! Let's dive right in!</h1>
+        <form action="index.html" class="signup-form">
+            <label for="title">Title</label>
+            <select id="title">
+                <option value="mr">Mr.</option>
+                <option value="ms">Ms.</option>
+            </select>
+            <label for="first-name">First name</label>
+            <input type="text" id="first-name">
+            <label for="last-name">Last name</label>
+            <input type="text" id="last-name">
+            <label for="email">E-Mail</label>
+            <input type="email" id="email">
+            <label for="password">Password</label>
+            <input type="password" id="password">
+            <input type="checkbox" id="agree-terms">
+            <label for="agree-terms">Agree to
+                <a href="#">Terms &amp; Conditions</a>
+            </label>
+            <button type="submit" class="button">Sign Up</button>
+        </form>
     </main>
     <footer class="main-footer">
         <nav>
@@ -88,7 +81,7 @@
                 <li class="main-footer__link">
                     <a href="#">Support</a>
                 </li>
-                <li class="main-footer__link">
+                <li class="main-footer__link"> 
                     <a href="#">Terms of Use</a>
                 </li>
             </ul>

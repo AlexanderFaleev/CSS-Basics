@@ -5,8 +5,8 @@ main {
 .background {
     background: url("../images/plans-background.jpg") center/cover;
     filter: grayscale(40%);
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     z-index: -1;
 }
@@ -87,4 +87,27 @@ main {
 
 #premium .package__subtitle {
     color: #bbb;
+}
+
+@media (min-width: 40rem) {
+    main {
+      max-width: 1500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+
+@media (min-width: 1500px) {
+    .package {
+      border: 4px solid #0e4f1f;
+    }
+
+    #free {
+        border-right: 4px solid #0e4f1f;
+    }
+
+    #free:hover,
+    #free:active {
+        border-right-color: #ff5454;
+    }
 }
